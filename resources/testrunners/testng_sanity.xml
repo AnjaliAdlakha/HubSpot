@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Hub Spot Sanity Test Automation Suite">
+
+<listeners>
+
+<listener class-name="com.qa.hubspot.listeners.pdfListener"/>
+
+
+
+</listeners>
+<test name="Hub Spot App Sanity Test Cases">
+
+
+<classes>
+
+<class name="com.qa.hubspot.tests.LoginPageTest"/>
+
+</classes>
+
+</test>
+
+</suite>
